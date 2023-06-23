@@ -1,16 +1,16 @@
 .App{
-    background-image: url('G:\My Drive\weather\public\back\alessio-zappatore-GMCbQTN3ork-unsplash.jpg');
+    background-image: url('/public/back/alessio-zappatore-GMCbQTN3ork-unsplash.jpg');
     background-size: cover;
     &.Clear {
         background-image: url('/public/back/sunny1.jpg');
       }
     
       &.Clouds {
-        background-image: url('G:\My Drive\weather\public\back\cloudy.jpg');
+        background-image: url('/public/back/cloudy.jpg');
       }
     
       &.Rain {
-        background-image: url('G:\My Drive\weather\public\back\rain.jpg');
+        background-image: url('/public/back/rain.jpg');
       }
       &.Haze {
         background-image: url('/public/back/smog.jpg');
