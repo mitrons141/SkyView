@@ -2,7 +2,7 @@
     background-image: url('/public/back/alessio-zappatore-GMCbQTN3ork-unsplash.jpg');
     background-size: cover;
     &.Clear {
-        background-image: url('/public/back/sunny1.jpg');
+        background-image: url('/public/back/sunny.jpg');
       }
     
       &.Clouds {
