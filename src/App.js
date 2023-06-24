@@ -26,7 +26,7 @@ function App() {
       setSearchHistory((prevHistory) => {
         const updatedHistory = [...prevHistory, searchData];
         if (updatedHistory.length > 5) {
-          updatedHistory.shift(); // Remove the oldest search item
+          updatedHistory.shift();
         }
         return updatedHistory;
       });
