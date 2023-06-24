@@ -23,7 +23,13 @@ function App() {
     );
   
     if (!isCurrentLocation && !isLocationAlreadySearched) {
-      setSearchHistory((prevHistory) => [...prevHistory, searchData]);
+      setSearchHistory((prevHistory) => {
+        const updatedHistory = [...prevHistory, searchData];
+        if (updatedHistory.length > 5) {
+          updatedHistory.shift(); // Remove the oldest search item
+        }
+        return updatedHistory;
+      });
     }
   
     const currentWeatherFetch = fetch(
