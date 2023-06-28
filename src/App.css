@@ -15,4 +15,7 @@
       &.Haze {
         background-image: url('/public/back/smog.jpg');
       }
+      &.Thunderstorm {
+        background-image: url('/public/back/thunder.jpg');
+      }
 }
