@@ -43,7 +43,7 @@ const Search = ({ onSearchChange, searchHistory, onCurrentLocationClick }) => {
     <nav className="navbar bg-transparent">
       <div className="mx-auto px-10 py-6">
         <div className="flex justify-between items-center">
-              <span className="font-semibold text-xl ml-2 text-slate-50 relative right-4">SkyView</span>
+                <img className="h-12 md:h-16 w-auto object-contain" src="logo.png"/>
           <AsyncPaginate
             className="px-3 w-[130px] md:w-[200px] lg:w-[250px] xl:w-[300px]"
             placeholder="Search"

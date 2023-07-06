@@ -53,7 +53,7 @@ const Air = ({ datas }) => {
 
 const Highlights = ({ data }) => {
   return (
-    <div className="px-8 pt-4 realtive top-[4.6rem] lg:absolute lg:left-[23.9rem] lg:top-[4.4rem] xl:absolute xl:left-[23.9rem] xl:top-[4.4rem]">
+    <div className="px-8 pt-6 realtive top-[4.6rem] lg:absolute lg:left-[23.9rem] lg:top-[4.4rem] xl:absolute xl:left-[23.9rem] xl:top-[4.4rem]">
       <div className="border border-gray-800 rounded-[2rem] w-[19.6rem] h-[102rem] px-8 pb-4 pt-2 bg-transparent shadow-2xl lg:w-[49rem] lg:h-[36rem] xl:w-[91rem] xl:h-[27rem]">
         <p className="text-slate-50 py-6 ">Today's highlights</p>
         <br />
