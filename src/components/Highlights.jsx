@@ -86,7 +86,7 @@ const Highlights = ({ data }) => {
             </div>
             <img className="w-12 lg:w-8 pb-2 xl:w-12" alt="weather" src="icons/sunset.png" />
             <div>
-              <p className="text-slate-50 text-xs px-2">Sunrset</p>
+              <p className="text-slate-50 text-xs px-2">Sunset</p>
               <p className="text-slate-50 text-3xl lg:text-xl">
                 {new Date(data.sys.sunset* 1000).toLocaleTimeString([], {
                   hour: "2-digit",
